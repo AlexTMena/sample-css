@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section#hero {
+  text-align: center;
+  background-color: white;
+}
+
+.article {
+  border: 1px dotted black;
+
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  
+}
+
+#hero h1 {
+  margin-bottom: 20px;
+  font-size: 72px;
+}
+
+.article h1, .article p {
+  margin-bottom: 15px;
+}
+
+.article p:last-child {
+  margin-bottom: 0px;
+}
+
+.article p:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.ads {
+  text-align: center;
+  background-color: #aaa;
+  padding: 50px;
+}
+
+/* .lead {
+  font-style: italic;
+} */
+
+section.banner.ads:last-child {
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 1.5;
+}
